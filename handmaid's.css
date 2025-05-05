@@ -4,7 +4,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar {
+/* .navbar {
     background-color: rgb(0, 0, 0, 0.2);
     padding: 30px;
     display: flex;
@@ -26,7 +26,7 @@ a:hover {
     transform: scale(2s);
     color: white;
     font-weight: bold;
-}
+} */
 
 .handmaidheader {
     background-color: red;
@@ -388,4 +388,121 @@ h2 {
     border-radius: 20px;
     width: 15cm;
     
+}
+.nav {
+    display: flex;
+    width: 50%;
+        gap: 3%;
+        border: none;
+        position: sticky;
+        z-index: 1100;
+        display: flex;
+        width: 100%;
+        height: 70px;
+        align-items: center;
+        background-color: rgb(80,80,80);
+      }
+      .nav span a{
+        font-size: 20px;
+        /* color: white; */
+      }
+     nav i {
+        font-size: 18;
+        color: white;
+      }
+.nav a {
+        text-decoration: none;
+        font-size: 15px;
+        color: white;
+        font-family: poppins;
+      }
+     
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 260px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      border: none;
+      border-radius: 30px;
+    }
+    
+    .dropdown-content a {
+      border: solid 1px grey;
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      background-color: black;
+    }
+    .allThemes{
+        margin-top: -3%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    @font-face {
+        font-family:typewriter ;
+        src: url(fonts/TypewriterSerial\ Regular.ttf);
+    }
+    @font-face {
+        font-family: poppins;
+        src: url(fonts/Poppins-Regular.ttf);
+    }
+    .allThemes p{
+font-family: poppins;
+font-size: 18px;
+color: rgb(68, 65, 65);
+    }
+    .dropdown:hover .dropdown-content {
+      background-color: white;
+      display: block;
+    }
+    .header-icons{
+      display: flex;
+      margin-left: 23%;
+  }
+  .header-icons i{
+      font-size: 23px;
+      text-decoration: none;
+      color:white; 
+  }
+  .social_icons{
+    display: flex;
+    margin-left: 70%;
+    gap: 35%;
+}
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social-links a {
+    color:white;
+    font-size: clamp(1.2rem, 3vw, 1.8rem);
+    transition: color 0.3s;
+}
+.social-links a:hover {
+    color: #FF6F61;
+}
+.social2-links {
+  margin-top: 1rem;
+  display: flex;
+  margin-left: 19%;
+  gap: clamp(1rem, 2vw, 1.5rem);
+}
+.social2-links a {
+  color:brown;
+  font-size: clamp(1.2rem, 3vw, 1.8rem);
+  transition: color 0.3s;
+}
+.social2-links a:hover {
+  color: #FF6F61;
 }
