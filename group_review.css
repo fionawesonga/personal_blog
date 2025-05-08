@@ -16,7 +16,7 @@ body{
 }
 .nav {
     display: flex;
-    width: 50%;
+    width: 100%;
         gap: 3%;
         border: none;
         position: sticky;
@@ -75,7 +75,7 @@ body{
     }
     .header-icons{
       display: flex;
-      margin-left: 23%;
+      margin-left: 20%;
   }
   .header-icons i{
       font-size: 23px;
@@ -182,7 +182,7 @@ body{
     background-repeat: repeat;
     /* background-color: blue; */
     background-size: cover;
-    height: 200vh;
+    height: 220vh;
 }
 
 .issue1{
@@ -195,7 +195,9 @@ body{
     font-size: 20px;
     border-radius: 13px;
 }
-
+.issue1,.issue2,.issue3,.issue4{
+    margin-top: 8%;
+}
 .issue2{
     background-color: whitesmoke;
     position: absolute;
@@ -234,7 +236,7 @@ body{
     position: absolute;
     padding: 40px;
     left: 25cm;
-    top: 119cm;
+    top: 125cm;
     font-size: 20px;
     color:rgb(80,80,80) ;
     border-radius: 13px;
@@ -299,6 +301,7 @@ body{
     background-position: center;
      width: 49vw; 
      height: 45vw; 
+   
 }
 .invite{
     background-color: rgb(25, 78, 128);
@@ -312,13 +315,13 @@ body{
         font-size: 50px;
         color: white;
         padding-top: 300px;
-        text-align: left;
-        padding-right: 70px;
+        text-align: center;
+        padding-right: 210px;
      }
      p{
-        display: flex;
-        justify-content: center;
-        font-size: xx-large;
+        /* display: flex;
+        justify-content: center; */
+        font-size: x-large;
         color: white;
         text-align: center;
      }

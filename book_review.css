@@ -266,7 +266,7 @@ margin-top: 20%;
   } */
   .nav {
     display: flex;
-    width: 50%;
+    width: 100%;
         gap: 3%;
         border: none;
         position: sticky;
@@ -324,7 +324,7 @@ margin-top: 20%;
     }
     .header-icons{
       display: flex;
-      margin-left: 23%;
+      margin-left: 20%;
   }
   .header-icons i{
       font-size: 23px;
@@ -333,6 +333,6 @@ margin-top: 20%;
   }
   .social_icons{
     display: flex;
-    margin-left: 70%;
+    margin-left: 40%;
     gap: 35%;
 }
