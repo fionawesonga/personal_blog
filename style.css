@@ -811,6 +811,7 @@ font-family: poppins;
 .nav a {
       text-decoration: none;
       color: white;
+      font-size: 17px;
       font-family: poppins;
     }
    
@@ -846,17 +847,17 @@ font-family: poppins;
   }
   .header-icons{
     display: flex;
-    margin-left: 20%;
+    margin-left: 18%;
 }
 .header-icons i{
-    font-size: 23px;
+    font-size: 21px;
     text-decoration: none;
     color:white; 
 }
 .social_icons{
   display: flex;
-  margin-left: 70%;
-  gap: 35%;
+  margin-left: 30%;
+  gap: 30%;
 }
 
 @media (max-width: 768px) {
