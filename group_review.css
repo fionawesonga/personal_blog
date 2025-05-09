@@ -195,7 +195,7 @@ body{
     border-radius: 13px;
 }
 .issue1,.issue2,.issue3,.issue4{
-    margin-top: 8%;
+    margin-top: 2%;
 }
 .issue2{
     background-color: whitesmoke;
@@ -235,7 +235,7 @@ body{
     position: absolute;
     padding: 40px;
     left: 25cm;
-    top: 125cm;
+    top: 120cm;
     font-size: 20px;
     color:rgb(80,80,80) ;
     border-radius: 13px;
