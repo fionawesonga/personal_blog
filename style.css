@@ -795,9 +795,9 @@ font-family: poppins;
       border: none;
       height: 70px;
       align-items: center;
-      position: sticky;
-      z-index: 999;
+      position: fixed;
       top: 0;
+      z-index: 1000;
       background-color: rgb(80,80,80);
     }
     .nav span a{
@@ -847,7 +847,7 @@ font-family: poppins;
   }
   .header-icons{
     display: flex;
-    margin-left: 18%;
+    margin-left: 23%;
 }
 .header-icons i{
     font-size: 21px;
@@ -856,7 +856,7 @@ font-family: poppins;
 }
 .social_icons{
   display: flex;
-  margin-left: 39%;
+  margin-left: 40%;
   gap: 30%;
 }
 

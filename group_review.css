@@ -19,9 +19,9 @@ body{
     width: 100%;
         gap: 3%;
         border: none;
-        position: sticky;
-        z-index: 999;
+        position: fixed;
         top: 0;
+        z-index: 1000;
         display: flex;
         height: 70px;
         align-items: center;
@@ -77,15 +77,16 @@ body{
       margin-left: 18%;
   }
   .header-icons i{
-      font-size: 23px;
+      font-size: 20px;
+      gap: 30px;
       text-decoration: none;
       color:white; 
   }
-  .social_icons{
-    display: flex;
-    gap: 30%;
+.social_icons{
+  display: flex;
+  margin-left: 40%;
+  gap: 30%;
 }
-
 .topimage{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("photos/BCK6.jpg");
     background-repeat: no-repeat;
